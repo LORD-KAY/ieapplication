@@ -9,15 +9,15 @@
 				<ul class="nav-list">
 					<li><a href="#"><img src=""/></a> </li>
 					<li><a href="#home">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Contact</a> </li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#contact">Contact</a> </li>
 					<li><a href="#">Gallery</a> </li>
 				</ul>
 			</div>
 		</header>
 		<main>
 			<div class="section_main">
-				<div class="home_pane" id="home">
+				<section class="home_pane" id="home">
 					<h1 class="heading">Welcome to ProfileX</h1>
 					<h2 class="sub-heading">
 						ProfileX is a simple and lightweight personal website for Acheampong Lord Offei
@@ -27,7 +27,66 @@
 						Navigate to the About link to read the overview or introduction, the Contact link for contact information
 						and the Gallery link to  view  a thumbnails or list of pictures with high graphical resolutions.
 					</h3>
-				</div>
+				</section>
+                <hr/>
+                <section class="about_pane" id="about">
+                    <h1 class="heading">About</h1>
+                    <div class="about_msg">
+						<h4>
+                            Acheampong Lord Offei is my name.
+						</h4>
+                    </div>
+                </section>
+				<section class="contact" id="contact">
+                    <h1 class="heading">Contact Information</h1>
+					<div class="form_panel" id="form-main">
+						<form role="form" class="form-control-main" method="post">
+							<div class="form-group">
+								<label for="username">
+									Username
+								</label>
+								<input type="text" name="username" placeholder="Enter a username" />
+							</div>
+                            <div class="form-group">
+                                <label for="email">
+                                    Email
+                                </label>
+                                <input type="email" name="email" placeholder="Enter an Email.."/>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">
+                                    Message
+                                </label>
+                                <textarea cols="3" aria-autocomplete="both" name="message"></textarea>
+                            </div>
+							<div class="form-group">
+                                <button type="button" class="submit_button" id="submit">Send</button>
+                            </div>
+						</form>
+					</div>
+                    <hr>
+                    <div class="contact-info" id="contact-info">
+                       <div class="name-pane">
+                           <label for="name">
+                               Name :
+                           </label>
+                           Acheampong Lord Offei
+                       </div>
+                        <div class="connect-pane">
+                            <label for="connect">
+                                Connect:
+                            </label>
+                            offeilord@gmail.com
+                        </div>
+                        <div class="contact-pane">
+                            <label for="contact">
+                                Contact:
+                            </label>
+                            +233 266796356
+                        </div>
+                    </div>
+				</section>
+
 			</div>
 		</main>
 		<footer>
